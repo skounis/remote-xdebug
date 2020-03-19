@@ -33,7 +33,17 @@ And restart SSH
 ```
 sudo service ssh restart
 ```
+Confirm that port `9000` accepts connection from any host
 
+Run
+```
+sudo netstat -plnt
+```
+And confirm that you get `0.0.0.0` in the Local Address.
+```
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:9000            0.0.0.0:*               LISTEN      49998/sshd: skounis 
+```
 #### Test the tunnel 
 In the local machine start a server that is listening to port `9000`
 ```
