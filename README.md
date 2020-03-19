@@ -58,6 +58,10 @@ nc localhost 2399
 Any character we type should apear in the terminal in the local machine. 
 
 ## Debug with PHPStorm
+### Deployment Server
+Go to "Preferences > Build, Execution, Deployment > Deployment" and set
+
+Connection
 
 ## References
 - https://help.ubidots.com/en/articles/937233-sending-tcp-udp-packets-using-netcat
