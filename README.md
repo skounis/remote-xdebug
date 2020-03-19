@@ -2,7 +2,7 @@
 Debug a remote server with XDebug and PHPStorm
 
 ## Overview 
-The IDE (e.g. PHPStorm) is runnung in the local machine and is listeing for XDebug connections from a remote server. 
+The IDE (e.g. PHPStorm) is runnung in the local machine and is listening for XDebug connections from a remote server. 
 
 XDebug port: `9000` 
 
