@@ -19,7 +19,7 @@ In the local machine start a server that is listening to port `9000`
 nc -l 9000
 ```
 
-In the server connect to port `9000` and send some messages (text` 
+In the server connect to port `9000` and send some messages (text) 
 ```
 nc localhost 2399
 ```
