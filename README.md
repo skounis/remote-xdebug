@@ -1,5 +1,5 @@
 # Remote Xdebug
-Debug a remote server with XDebug.
+Debug a remote server with XDebug and PHPStorm
 
 ## Overview 
 The IDE (e.g. PHPStorm) is runnung in the local machine and is listeing for XDebug connections from a remote server. 
