@@ -84,6 +84,28 @@ You need to have an exact copy of the files in the local filesystem.
 1. Set the IP of the server 
 2. Map the files by using absolute paths for local and remote folders. 
 
+#### Validate the server 
+Select "Run > Web Server Debug Validation"
+1. Select Remote Web Server
+2. Set the path to the folder that is server by the webserver
+3. Select the Deployment server 
+4. Press "Validate" 
+
+![Validate](https://github.com/skounis/remote-xdebug/blob/master/xdebug-phpstorm-04.png)
+
+### Listen for connections
+Select the PHP Server and start listening for connection.
+
+![Validate](https://github.com/skounis/remote-xdebug/blob/master/xdebug-phpstorm-05.png)
+
+### Browser 
+Install a plugin that sets the debug session 
+-  Chrome: https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc
+
+Visit the public URL with the plugin enabled.
+
+PHPStorm expects the cookie value `XDEBUG_SESSION=PHPSTORM;` in the request header. 
+
 ## References
 - https://help.ubidots.com/en/articles/937233-sending-tcp-udp-packets-using-netcat
 - https://crosp.net/blog/software-development/web/php/understanding-and-using-xdebug-with-phpstorm-and-magento-remotely/
