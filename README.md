@@ -72,6 +72,18 @@ Connection
 Mappings
 ![Mappings](https://github.com/skounis/remote-xdebug/blob/master/xdebug-phpstorm-02.png)
 
+
+### PHP Server
+Go to "Preferences > Languages & Frameworks > PHP > Servers". 
+
+Create a new server 
+![New Server](https://github.com/skounis/remote-xdebug/blob/master/xdebug-phpstorm-03.png)
+
+#### Local files
+You need to have an exact copy of the files in the local filesystem. 
+1. Set the IP of the server 
+2. Map the files by using absolute paths for local and remote folders. 
+
 ## References
 - https://help.ubidots.com/en/articles/937233-sending-tcp-udp-packets-using-netcat
 - https://crosp.net/blog/software-development/web/php/understanding-and-using-xdebug-with-phpstorm-and-magento-remotely/
