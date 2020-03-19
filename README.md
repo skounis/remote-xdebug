@@ -62,6 +62,7 @@ Any character we type should apear in the terminal in the local machine.
 Go to "Preferences > Build, Execution, Deployment > Deployment" and set
 
 Connection
+![Connection](https://github.com/skounis/remote-xdebug/blob/master/xdebug-phpstorm-01.png)
 
 ## References
 - https://help.ubidots.com/en/articles/937233-sending-tcp-udp-packets-using-netcat
