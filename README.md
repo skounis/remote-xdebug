@@ -7,10 +7,31 @@ The IDE (e.g. PHPStorm) is runnung in the local machine and is listeing for XDeb
 XDebug port: `9000` 
 
 ### Establish and test an SSH tunnel. 
-Redirecting all requests from the server that come to port 9900 to the local machine on port 9000
+Redirecting all requests from the server that come to port `9000` to the local machine on port `9000`
 
 ```
 ssh -R 9000:localhost:9000 server_ip_hostname_or_config_alias
+```
+If the XDebug runs within a Docker containter in the server setup a the tunnel with the command:
+
+```
+ssh -R \*:9000:localhost:9000 server_ip_hostname_or_config_alias
+```
+Which makes the tunnel open to the public. 
+
+#### Allow Remote connection 
+> By default, OpenSSH only allows connecting to remote forwarded ports from the server host
+Edit the `sshd_config`
+```
+sudo joe /etc/ssh/sshd_config
+```
+Set
+```
+GatewayPorts yes
+```
+And restart SSH
+```
+sudo service ssh restart
 ```
 
 #### Test the tunnel 
