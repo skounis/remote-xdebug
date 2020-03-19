@@ -109,3 +109,7 @@ PHPStorm expects the cookie value `XDEBUG_SESSION=PHPSTORM;` in the request head
 ## References
 - https://help.ubidots.com/en/articles/937233-sending-tcp-udp-packets-using-netcat
 - https://crosp.net/blog/software-development/web/php/understanding-and-using-xdebug-with-phpstorm-and-magento-remotely/
+- [SSH Port Forwarding Example](https://www.ssh.com/ssh/tunneling/example)
+- [Check listening ports](https://support.rackspace.com/how-to/checking-listening-ports-with-netstat/)
+- [How to make ssh tunnel open to public?](https://superuser.com/questions/588591/how-to-make-ssh-tunnel-open-to-public)
+- [sshd_config - SSH Server Configuration](https://www.ssh.com/ssh/sshd_config)
