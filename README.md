@@ -64,6 +64,9 @@ Go to "Preferences > Build, Execution, Deployment > Deployment" and set
 Connection
 ![Connection](https://github.com/skounis/remote-xdebug/blob/master/xdebug-phpstorm-01.png)
 
+Mappings
+![Mappings](https://github.com/skounis/remote-xdebug/blob/master/xdebug-phpstorm-02.png)
+
 ## References
 - https://help.ubidots.com/en/articles/937233-sending-tcp-udp-packets-using-netcat
 - https://crosp.net/blog/software-development/web/php/understanding-and-using-xdebug-with-phpstorm-and-magento-remotely/
