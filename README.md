@@ -59,7 +59,12 @@ Any character we type should apear in the terminal in the local machine.
 
 ## Debug with PHPStorm
 ### Deployment Server
-Go to "Preferences > Build, Execution, Deployment > Deployment" and set
+Go to "Preferences > Build, Execution, Deployment > Deployment". 
+
+Create a new server 
+![New Server](https://github.com/skounis/remote-xdebug/blob/master/xdebug-phpstorm-00.png)
+
+And set
 
 Connection
 ![Connection](https://github.com/skounis/remote-xdebug/blob/master/xdebug-phpstorm-01.png)
