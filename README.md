@@ -52,7 +52,7 @@ nc -l 9000
 
 In the server connect to port `9000` and send some messages (text) 
 ```
-nc localhost 2399
+nc localhost 9000
 ```
 
 Any character we type should apear in the terminal in the local machine. 
