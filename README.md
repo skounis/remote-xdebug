@@ -114,3 +114,5 @@ PHPStorm expects the cookie value `XDEBUG_SESSION=PHPSTORM;` in the request head
 - [How to make ssh tunnel open to public?](https://superuser.com/questions/588591/how-to-make-ssh-tunnel-open-to-public)
 - [SSH Tunnel - Local and Remote Port Forwarding Explained With Examples](https://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html)
 - [sshd_config - SSH Server Configuration](https://www.ssh.com/ssh/sshd_config)
+### PHPStorm 
+- [Create new PhpStorm project from remote server with automatic sync of source files](https://www.webfoobar.com/node/92)
